@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package examenfinal;
+//HERENCIA
 
 /**
  *
@@ -16,6 +18,13 @@ public class Examenfinal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        memoriaram n1=new memoriaram();
+        n1.encender();
+        memoriaram n2=new memoriaram();
+        n2.encender();
+        sim n3=new sim();
+        n1.apagar();
+        
     }
     
 }
