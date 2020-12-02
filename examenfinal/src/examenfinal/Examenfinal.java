@@ -8,7 +8,7 @@ package examenfinal;
 //HERENCIA
 import java.util.ArrayList;
 import examenfinal.principal.*;
-
+import examenfinal.principal2.*;
 
 /**
  *
@@ -23,23 +23,25 @@ public class Examenfinal {
    
         // TODO code application logic here}
         //HERENCIA
-        principal p1= new principal();
-       p1.show();
+      //  principal p1= new principal();
+     //  p1.show();
         
-        memoriaram n1=new memoriaram();
-        n1.encender();
-        memoriaram n2=new memoriaram();
-        n2.encender();
-        sim n3=new sim();
-        n1.apagar();
+      //  memoriaram n1=new memoriaram();
+       // n1.encender();
+       // memoriaram n2=new memoriaram();
+       // n2.encender();
+       // sim n3=new sim();
+       // n1.apagar();
         
         
         ///*- INTERFACE EJERCICIO 2
-     //  MOTO m=new MOTO();
-      // carro c= new carro();
+        principal2 p2= new principal2();
+        p2.show();
+       MOTO m=new MOTO();
+       carro c= new carro();
        
-     //  m.caminar();
-     //  c.caminar();//
+      m.caminar();
+     c.caminar();
     
        
    //----Abstractas, Usar ArrayList 3
