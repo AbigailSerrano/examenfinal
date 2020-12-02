@@ -7,6 +7,9 @@
 package examenfinal;
 //HERENCIA
 
+
+
+
 /**
  *
  * @author raque
@@ -25,6 +28,13 @@ public class Examenfinal {
         sim n3=new sim();
         n1.apagar();
         
-    }
+        ///*- INTERFACE EJERCICIO 2
+       MOTO m=new MOTO();
+       carro c= new carro();
+       
+       m.caminar();
+       c.caminar();
+    
+   
     
 }
