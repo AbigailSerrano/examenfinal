@@ -35,21 +35,24 @@ public class Examenfinal {
         
         
         ///*- INTERFACE EJERCICIO 2
-        principal2 p2= new principal2();
-        p2.show();
-       MOTO m=new MOTO();
-       carro c= new carro();
+        //principal2 p2= new principal2();
+        //p2.show();
+       //MOTO m=new MOTO();
+       //carro c= new carro();
        
-      m.caminar();
-     c.caminar();
+      //m.caminar();
+     //c.caminar();
     
        
    //----Abstractas, Usar ArrayList 3
-    //ArrayList<String> Persona;
+   
+   principal3 p3= new principal3();
+   p3.show();
+    ArrayList<String> Persona;
     
-   // Persona =new ArrayList<String> ();
+   Persona =new ArrayList<String> ();
     
-    //Juan j = new Juan();
-   /// j.comer();
-   // j.moverse();
+    Juan j = new Juan();
+    j.comer();
+   j.moverse();
 }
