@@ -61,13 +61,29 @@ public class Examenfinal {
   
   //sobreescritura
   
-  principal4 p4 = new principal4();
-  p4.show();
-    tresleches t = new tresleches();
-    selvanegra s = new selvanegra();
+  //principal4 p4 = new principal4();
+   // p4.show();
+    //tresleches t = new tresleches();
+   //selvanegra s = new selvanegra();
     
-    t.ingredientes();
-    s.ingredientes();
+   //t.ingredientes();
+   // s.ingredientes();
     
+  
+    ///sobrecarga
+    principal5 p5 = new principal5();
+   p5.show();
+  serhumano sh1=new serhumano("Abigail",18);
+   
+   sh1.caminar();
+    
+  serhumano sh2 = new serhumano("232635");
+   sh2.caminar(100);
+   
+   
+   
+   
+   
+   
   
 }
