@@ -46,13 +46,28 @@ public class Examenfinal {
        
    //----Abstractas, Usar ArrayList 3
    
-   principal3 p3= new principal3();
-   p3.show();
-    ArrayList<String> Persona;
+   //principal3 p3= new principal3();
+   //p3.show();
+   // ArrayList<String> Persona;
     
-   Persona =new ArrayList<String> ();
+   //Persona =new ArrayList<String> ();
     
-    Juan j = new Juan();
-    j.comer();
-   j.moverse();
+   // Juan j = new Juan();
+   // j.comer();
+  // j.moverse();
+  
+  
+  
+  
+  //sobreescritura
+  
+  principal4 p4 = new principal4();
+  p4.show();
+    tresleches t = new tresleches();
+    selvanegra s = new selvanegra();
+    
+    t.ingredientes();
+    s.ingredientes();
+    
+  
 }
